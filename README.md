@@ -50,5 +50,11 @@ Flash the program and launch IDF Monitor:
 idf.py flash monitor
 ```
 
-## Feedback
+## Known Issues
 
+ESP32-S3-EYE does not have a USB-to-UART bridge, which may cause a problem: If the program flashed onto the board keeps the chip rebooting, you cannot flash more programs onto the board.
+
+In case this issue occurs, you need to:
+
+Hold down BOOT button and press RST button, then release RST button first, and BOOT button next. In this way, the board enters Firmware Download mode and you can start flashing program onto the board.
+After flashing the program, press RST button to start the program.
