@@ -10,6 +10,9 @@ ESP32-S3-EYE provides examples such as Human Face Detection, Human Face Recognit
 
 ![A02-en](https://user-images.githubusercontent.com/10337553/155143732-deeb9ef0-8227-4b59-8a4a-90dac969e62f.png)
 
+
+![A07](https://user-images.githubusercontent.com/10337553/167303523-9fa0c80a-f047-408c-8b5f-ac5a52b9cdc2.png)
+
 ### Software
 
 #### Get ESP-IDF
@@ -58,3 +61,8 @@ In case this issue occurs, you need to:
 
 Hold down BOOT button and press RST button, then release RST button first, and BOOT button next. In this way, the board enters Firmware Download mode and you can start flashing program onto the board.
 After flashing the program, press RST button to start the program.
+
+## Support
+
+if you need any help, please connect: aemails@163.com
+
